@@ -54,7 +54,7 @@ img:hover {
 /* HEADER */
 
 header {
-    min-height: 65vh;
+    min-height: 60vh;
     background: #000 url(../images/background.JPG) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
