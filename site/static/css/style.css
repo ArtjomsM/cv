@@ -82,4 +82,34 @@ h1::after {
     /* border: 0.1px solid black; */
 }
 
+.arrow::before {
+    content: "";
+    height: 8px;
+    width: 30px; 
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: 4vh;
+    background-color: #fff;
+    transform: rotate(45deg);
+    transition: all 0.3s;
+}
+
+.arrow::after {
+    content: "";
+    height: 8px;
+    width: 30px; 
+    position: absolute;
+    left: calc(50% - 14px);
+    bottom: 4vh;
+    background-color: #fff;
+    transform: rotate(135deg);
+    transition: all 0.3s;
+}
+
+.arrow:hover:after , .arrow:hover:before {
+    background-color: #f1f1f1;
+    bottom: 4.4vh;
+    transition: all 0.3s;
+}
+
 /* /HEADER */
